@@ -3,7 +3,7 @@ name := "QueryFilter"
 version := "1.0"
 
 libraryDependencies ++= Seq(
-  "org.reactivemongo" %% "play2-reactivemongo" % "0.10.2"
+  "org.reactivemongo" % "play2-reactivemongo_2.10" % "0.11.0.play23"
 )
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)

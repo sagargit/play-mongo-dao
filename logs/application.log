@@ -1,0 +1,13 @@
+2016-06-01 10:49:07,354 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-06-01 10:50:23,453 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-01 10:50:23,465 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-01 10:50:23,470 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+

@@ -5,35 +5,46 @@ import models.Person
 import play.api.libs.json._
 import play.api.mvc._
 import reactivemongo.bson.BSONObjectID
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{Future, ExecutionContext}
 import ExecutionContext.Implicits.global
 import scala.util.Try
+import Person._
+import play.modules.reactivemongo.json._,ImplicitBSONHandlers._
+
 
 object Application extends Controller {
 
   val dao = DaoAndEntity
   val queryReader: Reads[JsObject] = implicitly[Reads[JsObject]]
-  val LoginObj = LoginApplication
+
+
+
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
   }
 
-  def save:EssentialAction = LoginObj.Authenticated.async(parse.json) { request =>
-    val jsObj = Json.fromJson(request.body)(dao.reader) // converted to person
-    dao.insert(jsObj.get) map (k => Ok(k))
+
+   def save:EssentialAction = Action.async(parse.json){ request =>
+    request.body.validate[Person].map{
+      k => dao.insert(k).map{
+        l => Ok("Successfully inserted")
+      }
+    }.getOrElse(Future.successful(BadRequest("Invalid Json")))
   }
 
-  def search:EssentialAction = LoginObj.Authenticated.async(parse.json){
+  def search:EssentialAction = Action.async(parse.json) {
     request =>
-   //   val jsObj = Json.fromJson(request.body)(dao.reader) // just for validation
-      val filteredJsObj = request.body.asOpt[JsObject].getOrElse(Json.obj())
-      //  val filteredJsObj= filter(request)
-      //val jsObj = Json.fromJson(filteredJsObj)(queryReader).getOrElse(Json.obj())
-      dao.find(filteredJsObj).map( _.map( js => transformMongoFields(js))) map {
-            case Nil=>NotFound
-            case l:Seq[JsObject] => Ok(Json.toJson(l))
-          }
-      }
+   //val jsObj = Json.fromJson(request.body)(dao.reader) // just for validation
+   val filteredJsObj = request.body.asOpt[JsObject].getOrElse(Json.obj())
+   //val filteredJsObj = filter(request)
+  //val jsObj = Json.fromJson(filteredJsObj)(queryReader).getOrElse(Json.obj())
+   dao.find(filteredJsObj).map(_.map( js => transformMongoFields(js))) map {
+     case Nil => NotFound
+     case l:Seq[JsObject] => Ok(Json.toJson(l))
+   }
+  }
+
+
       ///searchWithOr/Sagar/21/false
   def searchWithOr(name:String,roll:BigDecimal,monitor:Boolean) = Action.async{
         request =>
@@ -49,6 +60,15 @@ object Application extends Controller {
       val query2 = Json.obj("$and"->Json.arr(Json.obj("name"->"Sagar"),Json.obj("roll"->10.0),Json.obj("monitor"->true)))
       dao.find(query2) map {
         case Nil=> Ok("searched person not found")
+        case l:Seq[JsObject] => Ok(Json.toJson(l))
+      }
+  }
+  //search student with and operation
+  def searchWithAndForStudent(firstname: String, age: Int) = Action.async{
+    request =>
+      val query1 = Json.obj("$and"->Json.arr(Json.obj("firstname"->firstname), Json.obj("age"->age)))
+      dao.find(query1) map {
+        case Nil=> Ok("Searched Student Not Found")
         case l:Seq[JsObject] => Ok(Json.toJson(l))
       }
   }

@@ -3,24 +3,35 @@
 # ~~~~
 
 # Home page
-GET           /                                         controllers.Application.index
-GET           /getById/:id                              controllers.Application.findById(id:String)
+GET           /                                         controllers.PersonApp.index
+GET           /getById/:id                              controllers.PersonApp.findById(id:String)
+GET          /getByStudentId/:id                        controllers.StudentApp.findById(id:String)
 #/getById/5489ba79b5f1442bdb9fd25e
-POST          /save                                     controllers.Application.save
-POST          /search                                   controllers.Application.search
-GET           /searchWithOr/:name/:roll/:monitor        controllers.Application.searchWithOr(name:String,roll:Int,monitor:Boolean)
+POST          /save                                     controllers.PersonApp.save
+POST          /search                                   controllers.PersonApp.search
+POST          /searchOne                                controllers.PersonApp.searchOne
+GET           /searchWithOr                             controllers.PersonApp.searchWithOr
+GET           /searchWithAnd                            controllers.PersonApp.searchWithAnd
+#GET          /searchWithOr/:name/:roll/:monitor        controllers.Application.searchWithOr(name:Option[String],roll:Option[BigDecimal],monitor:Option[Boolean])
+PUT           /update/:id                               controllers.PersonApp.change(id:String)
+DELETE        /delete/:id                               controllers.PersonApp.remove(id:String)
+#Students
+POST          /saveStudent                              controllers.StudentApp.saveStudent
+POST          /searchStudent                            controllers.StudentApp.searchStudent
+POST          /searchFirstStudent                       controllers.StudentApp.searchFirstStudent
+GET           /searchWithOrForStudent                   controllers.StudentApp.searchWithOrForStudent
+GET           /searchWithAndForStudent                  controllers.StudentApp.searchWithAndForStudent
+#GET          /searchWithAndPerson/:name/:roll/:monitor  controllers.Application.searchWithAndPerson(name:String,roll:Int,monitor:Boolean)
+PUT           /updateStudent/:id                        controllers.StudentApp.change(id: String)
+DELETE        /deleteStudent/:id                        controllers.StudentApp.removeStudent(id:String)
+
+
 # Map static resources from the /public folder to the /assets URL path
 GET           /assets/*file                             controllers.Assets.at(path="/public", file)
 
 #GET         /showQuery                                 controllers.Application.showQuery
-GET           /searchWithAnd                            controllers.Application.searchWithAnd
-POST          /searchOne                                controllers.Application.searchOne
-
 #GET           /jsonToJson                               controllers.JsonCoastToCoast.jsonToJson
 
-PUT           /update/:id                               controllers.Application.change(id:String)
-
-DELETE        /delete/:id                               controllers.Application.remove(id:String)
 
 #POST          /login                                    controllers.LoginApplication.loginUser
 

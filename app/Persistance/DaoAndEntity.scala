@@ -30,11 +30,6 @@ object DaoAndEntity {
     collection.insert(modelToJsObj) map (_ => modelToJsObj) // JsObject returned to display
   }
 
- /* def insertStudent(student: Student): Future[JsObject]={
-    val modelToJsObj = swriter.writes(student).as[JsObject]
-    collection.insert(modelToJsObj) map (_ => modelToJsObj)
-  }*/
-
   def find(filter:JsObject):Future[Seq[JsObject]]={
 
     collection.find(filter).cursor[JsObject].collect[List]() // collect is very imp for getting collection of documents
@@ -44,6 +39,7 @@ object DaoAndEntity {
   def findOne(t: JsObject): Future[Option[JsObject]]={
     collection.find(t).cursor[JsObject].headOption
   }
+
  // collection.find( { $or:[  ] } )
 
   def update(filter:JsObject,person:Person):Future[Unit]= {

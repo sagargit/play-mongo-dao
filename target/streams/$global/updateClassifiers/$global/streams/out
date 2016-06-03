@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for queryfilter#queryfilter$sources_javadoc_2.10;1.0 [compile]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57a33935
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f45af1b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.10;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a57f56f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28767a0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.10;1.0.2
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.10;1.0.2
 [debug] 	found com.typesafe.play#twirl-api_2.10;1.0.2 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#twirl-api_2.10;1.0.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78eca8ff
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c5bad8c
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	found org.apache.commons#commons-lang3;3.1 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.commons#commons-lang3;3.1 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5113f7d8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13f1b9c4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play_2.10;2.3.7
 [debug] 	found com.typesafe.play#play_2.10;2.3.7 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play_2.10;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15eb119f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f2336cc
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.3.7
 [debug] 	found com.typesafe.play#build-link;2.3.7 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#build-link;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b282cee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7375c15f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.3.7
 [debug] 	found com.typesafe.play#play-exceptions;2.3.7 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-exceptions;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.18.2-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@728f2399
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77eadae9
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	found org.javassist#javassist;3.18.2-GA in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.javassist#javassist;3.18.2-GA [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@54402248
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60c8e1ed
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.10;2.3.7
 [debug] 	found com.typesafe.play#play-iteratees_2.10;2.3.7 in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-iteratees_2.10;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.10;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11904c9d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3845d442
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.10;0.7
 [debug] 	found org.scala-stm#scala-stm_2.10;0.7 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-stm#scala-stm_2.10;0.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74d145d8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bffdb32
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@411b5c7b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@347b52e0
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.10;2.3.7
 [debug] 	found com.typesafe.play#play-json_2.10;2.3.7 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-json_2.10;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b032cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70bd66d6
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.10;2.3.7
 [debug] 	found com.typesafe.play#play-functional_2.10;2.3.7 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-functional_2.10;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.7 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b1d90fc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@81d6e5a
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.10;2.3.7
 [debug] 	found com.typesafe.play#play-datacommons_2.10;2.3.7 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-datacommons_2.10;2.3.7 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f2db44d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32726f1a
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	local: revision in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38189cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61c28032
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	local: revision in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70559e00
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7661a2
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f43b819
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@703a923c
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c0da762
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b1afc8d
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@384c5f96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@aef6e80
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.4
 [debug] 	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain
@@ -179,7 +179,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-reflect;2.10.4 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.9.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35a877ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aae09f
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.9.3.Final
 [debug] 	local: revision in cache: io.netty#netty;3.9.3.Final
 [debug] 	found io.netty#netty;3.9.3.Final in sbt-chain
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->io.netty#netty;3.9.3.Final [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ab237f8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52e3ed98
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18f59ec7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b2ed11c
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.6 in sbt-chain
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#jul-to-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@500da66a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67bf6c49
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.6 in sbt-chain
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#jcl-over-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58081152
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@442ea461
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	found ch.qos.logback#logback-core;1.1.1 in sbt-chain
@@ -224,7 +224,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->ch.qos.logback#logback-core;1.1.1 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@502ab202
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@570bb142
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	found ch.qos.logback#logback-classic;1.1.1 in sbt-chain
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->ch.qos.logback#logback-classic;1.1.1 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.10;2.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@555c7157
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c9cc9c
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.10;2.3.4
 [debug] 	found com.typesafe.akka#akka-slf4j_2.10;2.3.4 in sbt-chain
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-slf4j_2.10;2.3.4 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@760301e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@465900a
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d81ef17
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25cbdd8c
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -260,7 +260,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@334746c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6aee47ca
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6fb2ca9c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71f26fa
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23 [compile->default(compile)]
 [info] Resolving org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17215781
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@516a6899
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23
 [debug] 	local: revision in cache: org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23
 [debug] 	found org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23 in sbt-chain
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#play2-reactivemongo_2.10;0.11.0.play23 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo_2.10;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo_2.10;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1161b5aa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@221542ef
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo_2.10;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo_2.10;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo_2.10;0.11.0 in sbt-chain
@@ -296,7 +296,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo_2.10;0.11.0 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f36b74b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76bc6e77
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0 in sbt-chain
@@ -305,7 +305,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo-bson-macros_2.10;0.11.0 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22141d53
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7724570c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.10.4
 [debug] 	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-lang#scala-compiler;2.10.4 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo-bson_2.10;0.11.0 [compile->default(compile)]
 [info] Resolving org.reactivemongo#reactivemongo-bson_2.10;0.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20bbb2bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@daa8982
 [debug] sbt-chain: module revision found in cache: org.reactivemongo#reactivemongo-bson_2.10;0.11.0
 [debug] 	local: revision in cache: org.reactivemongo#reactivemongo-bson_2.10;0.11.0
 [debug] 	found org.reactivemongo#reactivemongo-bson_2.10;0.11.0 in sbt-chain
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.reactivemongo#reactivemongo-bson_2.10;0.11.0 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c78972f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c8690e4
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.10;2.3.6
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.10;2.3.6
 [debug] 	found com.typesafe.akka#akka-actor_2.10;2.3.6 in sbt-chain
@@ -332,7 +332,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.akka#akka-actor_2.10;2.3.6 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-api;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2380d286
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@234042bf
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-api;2.0.2
 [debug] 	local: revision in cache: org.apache.logging.log4j#log4j-api;2.0.2
 [debug] 	found org.apache.logging.log4j#log4j-api;2.0.2 in sbt-chain
@@ -341,7 +341,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-api;2.0.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-core;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-core;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fccc037
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d79bcb
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-core;2.0.2
 [debug] 	local: revision in cache: org.apache.logging.log4j#log4j-core;2.0.2
 [debug] 	found org.apache.logging.log4j#log4j-core;2.0.2 in sbt-chain
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-core;2.0.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-to-slf4j;2.0.2 [compile->default(compile)]
 [info] Resolving org.apache.logging.log4j#log4j-to-slf4j;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d0785a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@605a3b3a
 [debug] sbt-chain: module revision found in cache: org.apache.logging.log4j#log4j-to-slf4j;2.0.2
 [debug] 	local: revision in cache: org.apache.logging.log4j#log4j-to-slf4j;2.0.2
 [debug] 	found org.apache.logging.log4j#log4j-to-slf4j;2.0.2 in sbt-chain
@@ -359,7 +359,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.logging.log4j#log4j-to-slf4j;2.0.2 [compile->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.7 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49978ea
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f3b4da
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.7
 [debug] 	found org.slf4j#slf4j-api;1.7.7 in sbt-chain
@@ -1175,7 +1175,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.slf4j#slf4j-api;1.7.7 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-test_2.10;2.3.7 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.10;2.3.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1184be58
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@defd51e
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.10;2.3.7
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.10;2.3.7
 [debug] 	found com.typesafe.play#play-test_2.10;2.3.7 in sbt-chain
@@ -1184,7 +1184,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.typesafe.play#play-test_2.10;2.3.7 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->junit#junit;4.11 [test->default(compile)]
 [info] Resolving junit#junit;4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ef7fbd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c38556f
 [debug] sbt-chain: module revision found in cache: junit#junit;4.11
 [debug] 	local: revision in cache: junit#junit;4.11
 [debug] 	found junit#junit;4.11 in sbt-chain
@@ -1193,7 +1193,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->junit#junit;4.11 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51a2acf4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1831b982
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -1202,7 +1202,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-core_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48a3cb23
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3240a266
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-core_2.10;2.3.12
 [debug] 	found org.specs2#specs2-core_2.10;2.3.12 in sbt-chain
@@ -1211,7 +1211,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-core_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-matcher_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ad36eaf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4eae11a6
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher_2.10;2.3.12
 [debug] 	found org.specs2#specs2-matcher_2.10;2.3.12 in sbt-chain
@@ -1220,7 +1220,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-matcher_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-common_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11291552
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dc64b11
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-common_2.10;2.3.12
 [debug] 	found org.specs2#specs2-common_2.10;2.3.12 in sbt-chain
@@ -1229,7 +1229,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-common_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-core_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1651eab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@473b5301
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-core_2.10;7.0.6 in sbt-chain
@@ -1238,7 +1238,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-core_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-concurrent_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72490ca0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b05e9b5
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-concurrent_2.10;7.0.6 in sbt-chain
@@ -1247,7 +1247,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-concurrent_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-effect_2.10;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.10;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ac9680f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@166ebdc8
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.6
 [debug] 	found org.scalaz#scalaz-effect_2.10;7.0.6 in sbt-chain
@@ -1256,7 +1256,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalaz#scalaz-effect_2.10;7.0.6 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-junit_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13784519
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@675788ea
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-junit_2.10;2.3.12
 [debug] 	found org.specs2#specs2-junit_2.10;2.3.12 in sbt-chain
@@ -1265,7 +1265,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-junit_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-mock_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d7ecb8f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cc5d72d
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-mock_2.10;2.3.12
 [debug] 	found org.specs2#specs2-mock_2.10;2.3.12 in sbt-chain
@@ -1274,7 +1274,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-mock_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48f8cbe7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a09257f
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	local: revision in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
@@ -1283,7 +1283,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ae5fdb9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5347ef3d
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
@@ -1292,7 +1292,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.objenesis#objenesis;1.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-matcher-extra_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher-extra_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22a6dc34
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10354265
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher-extra_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher-extra_2.10;2.3.12
 [debug] 	found org.specs2#specs2-matcher-extra_2.10;2.3.12 in sbt-chain
@@ -1301,7 +1301,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-matcher-extra_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-analysis_2.10;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-analysis_2.10;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3eefac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16aff349
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-analysis_2.10;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-analysis_2.10;2.3.12
 [debug] 	found org.specs2#specs2-analysis_2.10;2.3.12 in sbt-chain
@@ -1310,7 +1310,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#specs2-analysis_2.10;2.3.12 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#classycle;1.4.3 [test->default(compile)]
 [info] Resolving org.specs2#classycle;1.4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49c4c654
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7813c902
 [debug] sbt-chain: module revision found in cache: org.specs2#classycle;1.4.3
 [debug] 	local: revision in cache: org.specs2#classycle;1.4.3
 [debug] 	found org.specs2#classycle;1.4.3 in sbt-chain
@@ -1319,7 +1319,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.specs2#classycle;1.4.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.0-M7 [test->default(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.0.0-M7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@758df30d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7cc67f8b
 [debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.0.0-M7
 [debug] 	local: revision in cache: org.scalamacros#quasiquotes_2.10;2.0.0-M7
 [debug] 	found org.scalamacros#quasiquotes_2.10;2.0.0-M7 in sbt-chain
@@ -1328,7 +1328,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scalamacros#quasiquotes_2.10;2.0.0-M7 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.novocode#junit-interface;0.11-RC1 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11-RC1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@748ff9b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7265c62c
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	found com.novocode#junit-interface;0.11-RC1 in sbt-chain
@@ -1337,7 +1337,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.novocode#junit-interface;0.11-RC1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b0e93f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d95ce89
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
@@ -1346,7 +1346,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6cbabf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57a0969c
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
@@ -1355,7 +1355,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.google.code.findbugs#jsr305;2.0.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-festassert;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26c5f47f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fda086
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-festassert;0.9.2 in sbt-chain
@@ -1364,7 +1364,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.fluentlenium#fluentlenium-core;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@448a454b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@329bd50e
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-core;0.9.2 in sbt-chain
@@ -1373,7 +1373,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.fluentlenium#fluentlenium-core;0.9.2 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-java;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c133b56
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12bf9a61
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.39.0 in sbt-chain
@@ -1382,7 +1382,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-java;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-android-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21d19042
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1de6e95c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-android-driver;2.39.0 in sbt-chain
@@ -1391,7 +1391,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8ebd669
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51a7aec
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.39.0 in sbt-chain
@@ -1400,7 +1400,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32c9ba79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e3c2c7d
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -1409,7 +1409,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.json#json;20080701 [test->default(compile)]
 [info] Resolving org.json#json;20080701 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d5c09fe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3da0c5f2
 [debug] sbt-chain: module revision found in cache: org.json#json;20080701
 [debug] 	local: revision in cache: org.json#json;20080701
 [debug] 	found org.json#json;20080701 in sbt-chain
@@ -1418,7 +1418,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.json#json;20080701 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-api;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d538473
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5dbcd4ca
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.39.0 in sbt-chain
@@ -1427,7 +1427,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-api;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.google.guava#guava;15.0 [test->default(compile)]
 [info] Resolving com.google.guava#guava;15.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7d3f599b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@39f7d2d9
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;15.0
 [debug] 	local: revision in cache: com.google.guava#guava;15.0
 [debug] 	found com.google.guava#guava;15.0 in sbt-chain
@@ -1436,7 +1436,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->com.google.guava#guava;15.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpclient;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c48d68d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38edeb60
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.1 in sbt-chain
@@ -1445,7 +1445,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpclient;4.3.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpcore;4.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3096fade
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78627449
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	found org.apache.httpcomponents#httpcore;4.3 in sbt-chain
@@ -1454,7 +1454,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpcore;4.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4767acc9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74a4a01d
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
@@ -1463,7 +1463,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@623b476f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d2b1c8c
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -1472,7 +1472,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a3bd564
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53d024ab
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -1481,7 +1481,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44d1b7ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ad2a8e1
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -1490,7 +1490,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18b340f6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@388da510
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 in sbt-chain
@@ -1499,7 +1499,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cdcac0e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17c61e23
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 in sbt-chain
@@ -1508,7 +1508,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.htmlunit#htmlunit;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18ae8da2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b6973dc
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.13 in sbt-chain
@@ -1517,7 +1517,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.htmlunit#htmlunit;2.13 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40df2839
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dedb4ca
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -1526,7 +1526,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xalan#serializer;2.7.1 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63fad2f4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27d3f33a
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.1
 [debug] 	local: revision in cache: xalan#serializer;2.7.1
 [debug] 	found xalan#serializer;2.7.1 in sbt-chain
@@ -1535,7 +1535,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5203da01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7f9a0690
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -1544,7 +1544,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpmime;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10d6f4b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@387fff47
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.1 in sbt-chain
@@ -1553,7 +1553,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.apache.httpcomponents#httpmime;4.3.1 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9795279
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@781fa17f
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.13 in sbt-chain
@@ -1562,7 +1562,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@503d3d5a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dc5c45d
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.19 in sbt-chain
@@ -1571,7 +1571,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.cssparser#cssparser;0.9.11 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@273d9946
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11c952ee
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.11 in sbt-chain
@@ -1580,7 +1580,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->net.sourceforge.cssparser#cssparser;0.9.11 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47e2ce04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b367bdf
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -1589,7 +1589,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-io#commons-io;2.2 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6573f55f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4686bc47
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.2
 [debug] 	local: revision in cache: commons-io#commons-io;2.2
 [debug] 	found commons-io#commons-io;2.2 in sbt-chain
@@ -1598,7 +1598,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->commons-io#commons-io;2.2 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@442d3296
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d5e8534
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 in sbt-chain
@@ -1607,7 +1607,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46afbafa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28c6cde8
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.12.v20130726 in sbt-chain
@@ -1616,7 +1616,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6de3312d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b66edbc
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.12.v20130726 in sbt-chain
@@ -1625,7 +1625,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43d43f57
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77a5e031
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.12.v20130726 in sbt-chain
@@ -1634,7 +1634,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74d45317
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1840b74
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 in sbt-chain
@@ -1643,7 +1643,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f26dd49
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fffd925
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.39.0 in sbt-chain
@@ -1652,7 +1652,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@149457f7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52d47645
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 in sbt-chain
@@ -1661,7 +1661,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25bcdda
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b36189c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.39.0 in sbt-chain
@@ -1670,7 +1670,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55c7ee88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@923827f
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -1679,7 +1679,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-support;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bd85c49
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9f5b1d5
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.39.0 in sbt-chain
@@ -1688,7 +1688,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.seleniumhq.selenium#selenium-support;2.39.0 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.easytesting#fest-assert;1.4 [test->default(compile)]
 [info] Resolving org.easytesting#fest-assert;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d34ca37
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d784b66
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-assert;1.4
 [debug] 	local: revision in cache: org.easytesting#fest-assert;1.4
 [debug] 	found org.easytesting#fest-assert;1.4 in sbt-chain
@@ -1697,7 +1697,7 @@
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.easytesting#fest-assert;1.4 [test->master]
 [debug] == resolving dependencies queryfilter#queryfilter$sources_javadoc_2.10;1.0->org.easytesting#fest-util;1.1.6 [test->default(compile)]
 [info] Resolving org.easytesting#fest-util;1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2067010
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61e04380
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-util;1.1.6
 [debug] 	local: revision in cache: org.easytesting#fest-util;1.1.6
 [debug] 	found org.easytesting#fest-util;1.1.6 in sbt-chain
@@ -4229,7 +4229,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)
-[debug] :: resolution report :: resolve 5139ms :: artifacts dl 4423ms
+[debug] :: resolution report :: resolve 5960ms :: artifacts dl 4585ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -4249,4 +4249,4 @@
 [debug] 	report for queryfilter#queryfilter$sources_javadoc_2.10;1.0 docs produced in /home/srijesh/dev/projects/play-mongo-dao/target/resolution-cache/reports/queryfilter-queryfilter$sources_javadoc_2.10-docs.xml
 [debug] 	report for queryfilter#queryfilter$sources_javadoc_2.10;1.0 pom produced in /home/srijesh/dev/projects/play-mongo-dao/target/resolution-cache/reports/queryfilter-queryfilter$sources_javadoc_2.10-pom.xml
 [debug] 	report for queryfilter#queryfilter$sources_javadoc_2.10;1.0 scala-tool produced in /home/srijesh/dev/projects/play-mongo-dao/target/resolution-cache/reports/queryfilter-queryfilter$sources_javadoc_2.10-scala-tool.xml
-[debug] 	resolve done (5139ms resolve - 4423ms download)
+[debug] 	resolve done (5960ms resolve - 4585ms download)

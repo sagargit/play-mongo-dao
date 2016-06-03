@@ -1,70 +1,849 @@
-2016-06-01 10:08:34,044 - [INFO] - from play in pool-4-thread-2 
+2016-06-02 10:23:53,925 - [INFO] - from play in pool-4-thread-2 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-01 10:10:22,287 - [ERROR] - from application in New I/O worker #1 
-
-
-! @709ffk22e - Internal server error, for (POST) [/save] ->
-
-play.PlayExceptions$CompilationException: Compilation error[No Json serializer as JsObject found for type play.api.libs.json.JsObject. Try to implement an implicit OWrites or OFormat for this type.]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
-
-2016-06-01 10:10:22,650 - [WARN] - from play in New I/O worker #1 
-No application found at invoker init
-
-2016-06-01 10:15:46,413 - [ERROR] - from application in New I/O worker #2 
-
-
-! @709fgcdgm - Internal server error, for (POST) [/save] ->
-
-play.PlayExceptions$CompilationException: Compilation error[No Json serializer as JsObject found for type play.api.libs.json.JsObject. Try to implement an implicit OWrites or OFormat for this type.]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
-	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
-	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
-	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
-
-2016-06-01 10:18:02,713 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-02 10:25:28,606 - [INFO] - from application in play-internal-execution-context-1 
 ReactiveMongoPlugin starting...
 
-2016-06-01 10:18:02,743 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-02 10:25:28,641 - [INFO] - from application in play-internal-execution-context-1 
 ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
 		[localhost:27017]
 
-2016-06-01 10:18:02,748 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-02 10:25:28,658 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
+
+2016-06-02 11:07:02,678 - [ERROR] - from application in New I/O worker #2 
+
+
+! @709n478m5 - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[encountered unrecoverable cycle resolving import.
+Note: this is often due in part to a class depending on a definition nested within its companion.
+If applicable, you may wish to try moving some members into another object.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:11:43,591 - [ERROR] - from application in New I/O worker #2 
+
+
+! @709n4n8e1 - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[encountered unrecoverable cycle resolving import.
+Note: this is often due in part to a class depending on a definition nested within its companion.
+If applicable, you may wish to try moving some members into another object.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:12:55,245 - [ERROR] - from application in New I/O worker #2 
+
+
+! @709n51adn - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext, either import scala.concurrent.ExecutionContext.Implicits.global or use a custom one]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:14:18,629 - [ERROR] - from application in New I/O worker #2 
+
+
+! @709n563mo - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Cannot find an implicit ExecutionContext, either import scala.concurrent.ExecutionContext.Implicits.global or use a custom one]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:15:00,717 - [ERROR] - from application in New I/O worker #2 
+
+
+! @709n58e3m - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Unit
+ required: play.api.libs.json.JsObject]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:53:15,442 - [ERROR] - from application in New I/O worker #4 
+
+
+! @709na92ib - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Ram] ->
+
+play.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Unit
+ required: play.api.libs.json.JsObject]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:55:56,345 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:55:56,906 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:55:57,566 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:55:57,567 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:55:57,567 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:59:43,479 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:59:43,489 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:59:43,579 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:59:43,580 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:59:43,581 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:00:27,444 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:00:27,460 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:00:27,532 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:00:27,532 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:00:27,533 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:00:27,740 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:01:07,668 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:01:07,675 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:01:07,782 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:01:07,783 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:01:07,783 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:01:07,901 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:01:07,906 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:03:35,999 - [ERROR] - from application in New I/O worker #4 
+
+
+! @709nbiahm - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Roman%20Sharma] ->
+
+play.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Unit
+ required: play.api.libs.json.JsObject]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 12:04:48,153 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:04:48,161 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:04:48,220 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:04:48,220 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:04:48,221 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:32:07,115 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:32:07,127 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:32:07,216 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:32:07,217 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:32:07,218 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:33:40,134 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:33:40,143 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:33:40,215 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:33:40,215 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:33:40,216 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:47:51,203 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:47:51,215 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:47:51,264 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:47:51,265 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:47:51,266 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:47:51,367 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:47:51,372 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:05:41,526 - [ERROR] - from application in New I/O worker #1 
+
+
+! @709njm9lb - Internal server error, for (GET) [/searchWithOr?rollNo=11&name=Roman%20Sharma] ->
+
+play.PlayExceptions$CompilationException: Compilation error[type mismatch;
+ found   : Unit
+ required: play.api.libs.json.JsObject
+ Note: implicit object BSONObjectIDFormat is not applicable here because it comes after the application point and it lacks an explicit result type]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 13:05:52,578 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:05:52,590 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:05:52,658 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:05:52,659 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:05:52,659 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:10:47,126 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:10:47,135 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:10:47,186 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:10:47,187 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:10:47,187 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:10:47,279 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:10:47,284 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:10:47,287 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:12:13,458 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:12:13,467 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:12:13,509 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:12:13,510 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:12:13,510 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:13:02,405 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:13:02,413 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:13:02,460 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:13:02,460 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:13:02,460 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:13:02,544 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:28:47,600 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:28:47,610 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:28:47,674 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:28:47,676 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:28:47,678 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:28:47,825 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:28:47,830 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:05:51,866 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:05:51,900 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:05:52,083 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:05:52,083 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:05:52,083 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:06:51,902 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:06:51,944 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:06:52,103 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:06:52,105 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:06:52,105 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:15:01,827 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:15:01,834 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:15:01,888 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:15:01,888 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:15:01,888 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:16:37,239 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:16:37,252 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:16:37,301 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:16:37,301 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:16:37,302 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:16:37,406 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:16:37,411 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:16:39,409 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:22:03,406 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:22:03,413 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:22:03,457 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:22:03,457 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:22:03,457 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:22:03,572 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:24:08,181 - [ERROR] - from application in New I/O worker #5 
+
+
+! @709oc0pk6 - Internal server error, for (GET) [/searchWithOrForStudent?firstname=sita&age=26] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not enough arguments for method searchWithOrForStudent: (firstname: String, lastname: String, age: Int)play.api.mvc.Action[play.api.mvc.AnyContent].
+Unspecified value parameters firstname, lastname, age.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 15:24:41,124 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:24:41,136 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:24:41,205 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:24:41,206 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:24:41,206 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:24:41,297 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:24:41,314 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:25:44,254 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:25:44,262 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:25:44,297 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:25:44,298 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:25:44,298 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:28:20,394 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:28:20,400 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:28:20,443 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:28:20,443 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:28:20,443 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:28:20,520 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:28:20,540 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:28:20,541 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:31:31,057 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:31:31,067 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:31:31,100 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:31:31,104 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:31:31,105 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:31:31,168 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:31:31,175 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:31:31,176 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:31:31,180 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:36:26,487 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:36:26,494 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:36:26,536 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:36:26,536 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:36:26,536 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:39:02,984 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:39:02,989 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:39:03,028 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:39:03,029 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:39:03,029 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:39:03,088 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:39:03,098 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:45:29,628 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:45:29,637 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:45:29,674 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:45:29,675 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:45:29,675 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 16:21:04,911 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 16:21:04,920 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 16:21:04,955 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 16:21:04,956 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 16:21:04,956 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 16:21:26,396 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 16:21:26,398 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-9 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 16:24:33,986 - [ERROR] - from application in New I/O worker #7 
+
+
+! @709ojp74i - Internal server error, for (POST) [/searchFirstStudent/Ravi] ->
+
+play.PlayExceptions$RoutesCompilationException: Compilation error[Missing parameter in call definition: name]
+	at play.PlaySourceGenerators$$anonfun$1.apply(PlaySourceGenerators.scala:24) ~[na:na]
+	at play.PlaySourceGenerators$$anonfun$1.apply(PlaySourceGenerators.scala:12) ~[na:na]
+	at play.PlaySettings$$anonfun$defaultSettings$29.apply(PlaySettings.scala:119) ~[na:na]
+	at play.PlaySettings$$anonfun$defaultSettings$29.apply(PlaySettings.scala:119) ~[na:na]
+	at scala.Function7$$anonfun$tupled$1.apply(Function7.scala:35) ~[scala-library.jar:na]
+	at scala.Function7$$anonfun$tupled$1.apply(Function7.scala:34) ~[scala-library.jar:na]
+	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47) ~[scala-library.jar:na]
+	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:42) ~[na:na]
+	at sbt.std.Transform$$anon$4.work(System.scala:64) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
+	at sbt.Execute.work(Execute.scala:244) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:237) ~[na:na]
+	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:160) ~[na:na]
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:30) ~[na:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0-ea]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[na:1.8.0-ea]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0-ea]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0-ea]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0-ea]
+	at java.lang.Thread.run(Thread.java:724) ~[na:1.8.0-ea]
+
+2016-06-02 16:24:57,627 - [ERROR] - from application in New I/O worker #7 
+
+
+! @709ok0g9f - Internal server error, for (POST) [/searchFirstStudent/Ravi] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Overloaded method value [apply] cannot be applied to  (String)]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 16:25:16,466 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 16:25:16,482 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 16:25:16,530 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 16:25:16,531 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'PersonDB'! Servers:
+		[localhost:27017]
+
+2016-06-02 16:25:16,531 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 16:25:17,586 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 16:25:17,591 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
 

@@ -4395,9 +4395,9 @@
 [debug] 	[NOT REQUIRED] asm#asm;3.1!asm.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 7868ms :: artifacts dl 284ms
+[debug] :: resolution report :: resolve 5783ms :: artifacts dl 114ms
 [debug] 	report for queryfilter#queryfilter$sbt_2.10;1.0 default produced in /home/srijesh/dev/projects/play-mongo-dao/target/resolution-cache/reports/queryfilter-queryfilter$sbt_2.10-default.xml
-[debug] 	resolve done (7868ms resolve - 284ms download)
+[debug] 	resolve done (5783ms resolve - 114ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: queryfilter#queryfilter$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -5943,46 +5943,3 @@
 [debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
 [debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
 [debug] 		tried http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[debug] 		tried /home/srijesh/.ivy2/local/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[debug] 		tried http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[debug] 		tried http://repo.typesafe.com/typesafe/releases/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[warn] 	[FAILED     ] xalan#serializer;2.7.1!serializer.jar(src):  (0ms)
-[warn] ==== typesafe-ivy-releases: tried
-[warn]   http://repo.typesafe.com/typesafe/ivy-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[warn] ==== sbt-plugin-releases: tried
-[warn]   http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[warn] ==== local: tried
-[warn]   /home/srijesh/.ivy2/local/xalan/serializer/2.7.1/srcs/serializer-sources.jar
-[warn] ==== public: tried
-[warn]   http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[warn] ==== Typesafe repository: tried
-[warn]   http://repo.typesafe.com/typesafe/releases/xalan/serializer/2.7.1/serializer-2.7.1-sources.jar
-[debug] 	[NOT REQUIRED] commons-collections#commons-collections;3.2.1!commons-collections.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.2.1!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.3.2!httpclient.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.3.1!httpcore.jar(src)
-[debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.1.3!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.3.2!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.9!commons-codec.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.14!htmlunit-core-js.jar(src)
-[debug] 	[NOT REQUIRED] xerces#xercesImpl;2.11.0!xercesImpl.jar(src)
-[debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.nekohtml#nekohtml;1.9.20!nekohtml.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.13!cssparser.jar(src)
-[debug] 	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.14.v20131031!jetty-websocket.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;8.1.14.v20131031!jetty-util.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;8.1.14.v20131031!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;8.1.14.v20131031!jetty-http.jar(src)
-[debug] :: resolution report :: resolve 2456ms :: artifacts dl 4762ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: xalan#serializer;2.7.1!serializer.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for queryfilter#queryfilter$sources_2.10;1.0 default produced in /home/srijesh/dev/projects/play-mongo-dao/target/resolution-cache/reports/queryfilter-queryfilter$sources_2.10-default.xml
-[debug] 	resolve done (2456ms resolve - 4762ms download)

@@ -6,14 +6,23 @@
 GET           /getById/:id                              controllers.Application.findById(id:String)
 #/getById/5489ba79b5f1442bdb9fd25e
 POST          /save                                     controllers.Application.save
+POST          /saveStudent                              controllers.StudentApplication.saveStudent
+
 POST          /search                                   controllers.Application.search
+POST          /searchAllStudent                         controllers.StudentApplication.searchAllStudent
+
 GET           /searchWithOr/:name/:roll/:monitor        controllers.Application.searchWithOr(name:String,roll:Int,monitor:Boolean)
+GET           /searchStudentWithOr                      controllers.StudentApplication.searchStudentWithOr
+
 # Map static resources from the /public folder to the /assets URL path
 GET           /assets/*file                             controllers.Assets.at(path="/public", file)
 
 #GET         /showQuery                                 controllers.Application.showQuery
 GET           /searchWithAnd                            controllers.Application.searchWithAnd
+GET           /searchStudentWithAnd                     controllers.StudentApplication.searchStudentWithAnd
+
 POST          /searchOne                                controllers.Application.searchOne
+POST          /searchOneStudent                         controllers.StudentApplication.searchOneStudent
 
 #GET           /jsonToJson                               controllers.JsonCoastToCoast.jsonToJson
 

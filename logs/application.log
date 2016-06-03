@@ -1,13 +1,450 @@
-2016-06-01 10:49:07,354 - [INFO] - from play in pool-4-thread-4 
+2016-06-02 11:22:52,951 - [INFO] - from play in pool-4-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-06-01 10:50:23,453 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-02 11:23:42,031 - [INFO] - from application in play-internal-execution-context-1 
 ReactiveMongoPlugin starting...
 
-2016-06-01 10:50:23,465 - [INFO] - from application in play-internal-execution-context-1 
+2016-06-02 11:23:42,073 - [INFO] - from application in play-internal-execution-context-1 
 ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
 		[localhost:27017]
 
-2016-06-01 10:50:23,470 - [INFO] - from play in play-internal-execution-context-1 
+2016-06-02 11:23:42,081 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
+
+2016-06-02 11:25:51,333 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:25:51,379 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:25:51,464 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:25:51,465 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:25:51,465 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:33:39,168 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:33:39,189 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:33:39,246 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:33:39,253 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:33:39,253 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:39:50,477 - [ERROR] - from application in New I/O worker #1 
+
+
+! @709n8f7o1 - Internal server error, for (GET) [/searchStudentWithOr?firstname=Sabin] ->
+
+play.PlayExceptions$CompilationException: Compilation error[No Json serializer found for type (String, play.api.libs.json.JsValue). Try to implement an implicit Writes or Format for this type.]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:235) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:230) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:230) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:90) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:90) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.10-2.3.7.jar:2.3.7]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.10-2.3.7.jar:2.3.7]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-06-02 11:40:50,715 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:40:50,722 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:40:50,764 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:40:50,764 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:40:50,765 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:40:50,851 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:40:50,860 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:42:33,635 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:42:33,641 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:42:33,683 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:42:33,684 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:42:33,684 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:42:33,737 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:42:33,757 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:43:49,725 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 11:43:49,732 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 11:43:49,768 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 11:43:49,769 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 11:43:49,769 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 11:43:49,831 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:43:49,836 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 11:43:49,837 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:10:39,840 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:10:39,847 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:10:39,893 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:10:39,893 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:10:39,894 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:10:39,937 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:10:39,947 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:10:39,952 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:11:04,010 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:11:04,019 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:11:04,073 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:11:04,074 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:11:04,075 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:11:27,891 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:11:27,900 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:11:27,938 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:11:27,939 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:11:27,940 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:11:28,010 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:18:42,533 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:18:42,543 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:18:42,589 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:18:42,590 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:18:42,590 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:41:28,850 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:41:28,859 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:41:28,908 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:41:28,909 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:41:28,909 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:41:42,061 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:41:42,069 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:41:42,106 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:41:42,107 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:41:42,107 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:45:54,967 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:45:54,981 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:45:55,024 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:45:55,025 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:45:55,025 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:45:55,076 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:45:55,085 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:51:17,925 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:51:17,933 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:51:17,971 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:51:17,972 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:51:17,972 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:51:18,020 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:51:18,035 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:51:18,041 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:56:53,392 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:56:53,398 - [INFO] - from application in ForkJoinPool-2-worker-5 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:56:53,433 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:56:53,434 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:56:53,435 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 12:56:53,492 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-5 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 12:57:38,875 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 12:57:38,880 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 12:57:38,920 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 12:57:38,921 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 12:57:38,921 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:04:25,239 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 13:04:25,247 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 13:04:25,280 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 13:04:25,281 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 13:04:25,282 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 13:04:25,329 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-7 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:04:25,338 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:04:25,340 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 13:04:25,344 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-4 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 14:59:35,030 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 14:59:35,037 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 14:59:35,069 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 14:59:35,069 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 14:59:35,070 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 14:59:35,122 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 14:59:35,137 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:01:23,564 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:01:23,570 - [INFO] - from application in ForkJoinPool-2-worker-1 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:01:23,599 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:01:23,599 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:01:23,599 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:01:23,642 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:01:23,648 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:01:23,653 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:01:23,656 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-2 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:30:01,071 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:30:01,077 - [INFO] - from application in ForkJoinPool-2-worker-3 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:30:01,112 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:30:01,113 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:30:01,113 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:30:14,735 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-3 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:30:14,738 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-6 
+The entire node set is unreachable, is there a network problem?
+
+2016-06-02 15:44:25,907 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin stops, closing connections...
+
+2016-06-02 15:44:25,924 - [INFO] - from application in ForkJoinPool-2-worker-7 
+ReactiveMongo Connections stopped. [Success(Closed)]
+
+2016-06-02 15:44:25,969 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2016-06-02 15:44:25,970 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'filterDb'! Servers:
+		[localhost:27017]
+
+2016-06-02 15:44:25,970 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-06-02 15:44:26,022 - [ERROR] - from reactivemongo.core.actors.MongoDBSystem in reactivemongo-akka.actor.default-dispatcher-8 
+The entire node set is unreachable, is there a network problem?
 

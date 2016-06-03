@@ -38,7 +38,7 @@ Seq[Any](_display_(/*1.2*/main("Play with Reactive Mongo")/*1.34*/{_display_(Seq
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 01 10:48:44 NPT 2016
+                  DATE: Thu Jun 02 11:22:22 NPT 2016
                   SOURCE: /home/sam/workspace/play-mongo-dao/app/views/index.scala.html
                   HASH: 76e5a5439cf00b6d0d776e58736c2c9354ab2297
                   MATRIX: 580->1|620->33|658->34|687->37

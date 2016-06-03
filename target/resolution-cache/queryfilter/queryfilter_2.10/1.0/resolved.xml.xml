@@ -4,7 +4,7 @@
 		module="queryfilter_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20160601104843"
+		publication="20160603095007"
 	>
 		<description>
 		QueryFilter
@@ -27,9 +27,7 @@
 	</configurations>
 	<publications>
 		<artifact name="queryfilter_2.10" type="pom" ext="pom" conf="pom"/>
-		<artifact name="queryfilter_2.10" type="jar" ext="jar" conf="compile"/>
-		<artifact name="queryfilter_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="queryfilter_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="queryfilter_2.10" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers, resolveSbtClassifiers"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>

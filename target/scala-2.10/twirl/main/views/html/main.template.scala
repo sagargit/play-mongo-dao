@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Jun 01 10:48:44 NPT 2016
+                  DATE: Thu Jun 02 11:22:22 NPT 2016
                   SOURCE: /home/sam/workspace/play-mongo-dao/app/views/main.scala.html
                   HASH: d956ffd30fe663fc25dca2262057d33183946d24
                   MATRIX: 509->1|627->31|654->32|724->76|749->81|805->112|832->119|861->122
